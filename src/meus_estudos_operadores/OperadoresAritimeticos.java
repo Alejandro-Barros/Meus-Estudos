@@ -22,6 +22,9 @@ public class OperadoresAritimeticos {
         System.out.println(frasesConcaternadas);
 
         System.out.println(resultado++);
+        System.out.println(++resultado);
+
+        
 
 
     }
