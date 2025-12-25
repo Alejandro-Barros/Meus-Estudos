@@ -15,7 +15,7 @@ public class CalculadoraAreaRetangulo {
 
         double areaRetangulo = altura * largura;
 
-        System.out.println("A area do seu retângulo é de: " + areaRetangulo + "cm");
+        System.out.println("A area do seu retângulo é de: " + (areaRetangulo *2) + "cm");
 
         scan.close();
 
