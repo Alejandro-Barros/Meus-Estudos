@@ -3,10 +3,15 @@ package Exercicios;
 public class Fibonacci {
     public static void main(String[] args) {
 
+        int i = 0;
         int n = 1;
-        int fibo = ((n - 1) + (n - 2));
-        for (fibo = 1; fibo < 50; n++) {
-            System.out.println(fibo);
+        while (n < 100) {
+            System.out.println(n);
+            int fibo = n + i;
+            i = n;
+            n = fibo;}
+        {
+            System.out.println(n);
         }
     }
 }
