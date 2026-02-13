@@ -15,5 +15,11 @@ public class LampadaExercicio {
         lampada.tipos = new String[2];
         lampada.tipos[0] = "Lampeões";
         lampada.tipos[1] = "Abajur";
+
+        lampada.ligarLampada();
+        lampada.mostrarEstado();
+        lampada.desligarLampada();
+        lampada.mostrarEstado();
+
     }
 }
